@@ -4,6 +4,7 @@ export const EmailSectionContainer = styled.div`
   > form {
     display: flex;
     flex-direction: column;
+    max-width: 60rem;
 
     > div {
       display: grid;
