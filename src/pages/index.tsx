@@ -67,9 +67,7 @@ const Home: React.FC = () => {
         <ProfileContainer>
           <User />
           <ProfileName>Álvaro Bianor</ProfileName>
-          <ProfileProfession>
-            Desenvolvedor Front-end e Mobile
-          </ProfileProfession>
+          <ProfileProfession>Desenvolvedor fullstack</ProfileProfession>
         </ProfileContainer>
         <ProfileSeparator />
         <ProfileBioContainer>
@@ -95,11 +93,12 @@ const Home: React.FC = () => {
             principalmente quando utilizado o{` `}
             <span className="tech">React/Next.Js </span> e o{` `}
             <span className="tech"> React Native</span>, tenho o objetivo de
-            crescer, aprender ainda mais, adiquirir mais conhecimento da área de
-            {` `}
-            <strong className="empashis">back-end</strong>, embora já programe
-            usando Node, quero conhecer mais e poder de fato ser um fullstack e
-            a melhor forma é correr atrás de
+            crescer, aprender ainda mais, também programo em{` `}
+            <span className="tech">NodeJs </span> também quero futuramente
+            aprender <span className="tech">.Net </span>e me aprofundar mais na
+            área de{` `}
+            <strong className="empashis">back-end</strong>, sempre em busca de
+            mais
             <span className="sub"> conhecimento</span>.
           </ProfileBio>
         </ProfileBioContainer>
@@ -147,7 +146,7 @@ const Home: React.FC = () => {
               Tenho o objetivo de crescer na área de{` `}
               <span className="tech">TI</span>, focando em me desenvolver como
               um programador <span className="empashis">fullstack</span> focando
-              em
+              em{` `}
               <span className="lang">Typescript</span>, pois é uma linguagem na
               qual tenho muita vontade de{` `}
               <strong className="empashis">dominar</strong>, principalmente
