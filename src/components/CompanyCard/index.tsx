@@ -26,7 +26,22 @@ const CompanyCard: React.FC = () => (
       </CompanyCardImage>
       <CompanyCardContent>
         <CompanyCardTitle>FFIT – Inovação e Tecnologia</CompanyCardTitle>
-        <CompanyCardTime>out. de 2020 - o momento</CompanyCardTime>
+        <CompanyCardTime>out. de 2020 - ago. de 2021</CompanyCardTime>
+        <CompanyCardLocation>Remoto</CompanyCardLocation>
+      </CompanyCardContent>
+    </CompanyCardContainer>
+    <CompanyCardContainer>
+      <CompanyCardImage>
+        <img
+          src="/companies/atlântico.png"
+          alt="atlantico"
+          width="90%"
+          height="90%"
+        />
+      </CompanyCardImage>
+      <CompanyCardContent>
+        <CompanyCardTitle>Instituto Atlântico</CompanyCardTitle>
+        <CompanyCardTime>ago. de 2021 - no momento</CompanyCardTime>
         <CompanyCardLocation>Remoto</CompanyCardLocation>
       </CompanyCardContent>
     </CompanyCardContainer>

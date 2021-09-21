@@ -15,6 +15,11 @@ export default createGlobalStyle`
         --go: ${props => props.theme.colors.goText};
     }
 
+    ::-webkit-scrollbar {
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
     .empashis{
       color: var(--emphasis)
     }
