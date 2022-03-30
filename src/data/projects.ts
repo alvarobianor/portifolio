@@ -71,7 +71,7 @@ export const ProjectsData: ProjectType[] = [
     platforms: [`web`, `github`]
   },
   {
-    id: 4,
+    id: 5,
     project: `igNews`,
     title: `IgNews`,
     description: `Projeto desenvolvido no Ignite da rocketseat, um blog com serviço de assinatura e login social.`,
