@@ -4,6 +4,7 @@ export type projectsType =
   | 'api-github'
   | 'places'
   | 'panel'
+  | 'igNews'
 
 export type goodsType = 'eslint' | 'prettier'
 

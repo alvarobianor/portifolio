@@ -69,5 +69,25 @@ export const ProjectsData: ProjectType[] = [
     link: `https://d01.vercel.app/`,
     langs: [`Html`, `Javascript`, `Css`],
     platforms: [`web`, `github`]
+  },
+  {
+    id: 4,
+    project: `igNews`,
+    title: `IgNews`,
+    description: `Projeto desenvolvido no Ignite da rocketseat, um blog com serviço de assinatura e login social.`,
+    repository: `https://github.com/alvarobianor/igNews`,
+    langs: [
+      `Typescript`,
+      `Next.Js`,
+      `React`,
+      `CMS`,
+      `NextAuth`,
+      `Stripe`,
+      `Fauna`,
+      `Prismic`,
+      `CSS Module`,
+      `Styled-components`
+    ],
+    platforms: [`web`, `github`]
   }
 ]
