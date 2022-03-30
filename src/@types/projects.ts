@@ -1,4 +1,9 @@
-export type projectsType = 'portifolio' | 'dtmoney' | 'api-github' | 'places'
+export type projectsType =
+  | 'portifolio'
+  | 'dtmoney'
+  | 'api-github'
+  | 'places'
+  | 'panel'
 
 export type goodsType = 'eslint' | 'prettier'
 

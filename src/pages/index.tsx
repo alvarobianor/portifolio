@@ -1,9 +1,8 @@
 /* eslint-disable consistent-return */
+import Lottie from 'react-lottie'
+import { useRef, useState } from 'react'
 import { GoodSkillsData, MainSkillsData, OtherSkillsData } from '@/data/skills'
 import { ProjectsData } from '@/data/projects'
-
-import { useRef, useState } from 'react'
-import Lottie from 'react-lottie'
 
 import {
   ContentSection,
@@ -76,13 +75,11 @@ const Home: React.FC = () => {
             <span className="empashis">front-end </span>
             (mas vez ou outra vou dar uma mão no back-end)
             {` `}
-            na
+            no
             {` `}
-            <span className="sub">FFIT – Inovação e Tecnologia</span>,
-            utilizando
+            <span className="sub">Instituto Atlântico</span>, utilizando
             {` `}
-            <span className="tech">React/Next.Js </span> e{` `}
-            <span className="tech">React Native </span>
+            <span className="tech">React/Next.Js </span>
             como ferramentas principais. <br /> <br /> Sou graduando de Sistemas
             de Informação pela{` `}
             <span className="empashis">UFC - Campus Quixadá</span>, também sou
@@ -90,13 +87,15 @@ const Home: React.FC = () => {
             para a universidade e seus parceiros.
             <br /> <br /> Sou{` `}
             <strong className="empashis">apaixonado </strong>pelo front-end,
-            principalmente quando utilizado o{` `}
+            principalmente quando utilizado {` `}
             <span className="tech">React/Next.Js </span> e o{` `}
             <span className="tech"> React Native</span>, tenho o objetivo de
-            crescer, aprender ainda mais, também programo em{` `}
-            <span className="tech">NodeJs </span> também quero futuramente
-            aprender <span className="tech">.Net </span>e me aprofundar mais na
-            área de{` `}
+            carreira alcançar o exterior um dia e aprender sempre mais sobre
+            minha área, também programo em{` `}
+            <span className="tech">NodeJs </span> quero futuramente aprender
+            {` `}
+            <span className="tech">Python </span>e me aprofundar mais na área de
+            {` `}
             <strong className="empashis">back-end</strong>, sempre em busca de
             mais
             <span className="sub"> conhecimento</span>.

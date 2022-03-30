@@ -1,5 +1,5 @@
-import { ProjectType } from '@/@types/projects'
 import React from 'react'
+import { ProjectType } from '@/@types/projects'
 import Project from '../Project'
 import { ProjectsGridContainer } from './style'
 

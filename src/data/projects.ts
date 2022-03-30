@@ -59,5 +59,15 @@ export const ProjectsData: ProjectType[] = [
       `Styled-components`
     ],
     platforms: [`web`, `github`]
+  },
+  {
+    id: 4,
+    project: `panel`,
+    title: `Álvaro Bianor Panel`,
+    description: `Projeto de um painel dinâmico de imagens desenvolvido para mostrar alguns conhecimentos de CSS.`,
+    repository: `https://github.com/alvarobianor/d01`,
+    link: `https://d01.vercel.app/`,
+    langs: [`Html`, `Javascript`, `Css`],
+    platforms: [`web`, `github`]
   }
 ]
