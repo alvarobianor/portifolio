@@ -9,7 +9,7 @@ export type skillsType =
   | 'sass'
   | 'styled-components'
   | 'redux'
-  | 'Jest'
+  | 'jest'
   | 'git'
   | 'eslint'
   | 'prettier'
