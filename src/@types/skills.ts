@@ -9,7 +9,7 @@ export type skillsType =
   | 'sass'
   | 'styled-components'
   | 'redux'
-  | 'jest'
+  | 'Jest'
   | 'git'
   | 'eslint'
   | 'prettier'
@@ -21,6 +21,7 @@ export type skillsType =
   | 'aws'
   | 'java'
   | 'docker'
+  | 'cypress'
 
 export type skillType = {
   id: number

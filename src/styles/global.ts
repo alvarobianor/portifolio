@@ -6,6 +6,8 @@ export default createGlobalStyle`
         --secondary: ${props => props.theme.colors.secondary};
         --background: ${props => props.theme.colors.background};
         --subBackground: ${props => props.theme.colors.subBackground};
+        --formationBackground: ${props =>
+          props.theme.colors.formationBackground};
         --text: ${props => props.theme.colors.text};
         --subText: ${props => props.theme.colors.subText};
         --description: ${props => props.theme.colors.description};

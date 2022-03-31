@@ -65,7 +65,7 @@ export const FormationDescription = styled.div`
   flex: 1;
   top: -8px;
   padding-top: calc(1rem + 4px);
-  background-color: #0c464866;
+  background-color: var(--formationBackground);
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   line-height: 1.5rem;

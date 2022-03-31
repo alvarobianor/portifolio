@@ -5,9 +5,10 @@ const defaultTheme: DefaultTheme = {
   colors: {
     primary: `#D76144`,
     secondary: `#EBA796`,
-    background: `#3B6061`,
-    subBackground: `#0C4648`,
-    text: `#FFF`,
+    background: `#1e1e1e`,
+    subBackground: `#3b3b3b`,
+    formationBackground: `#595959`,
+    text: `#F6F5EC`,
     subText: `#DFCEB9`,
     description: `#AAA`,
     emphasisText: `#D76144`,
