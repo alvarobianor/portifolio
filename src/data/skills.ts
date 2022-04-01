@@ -17,14 +17,14 @@ export const MainSkillsData: skillType[] = [
   { id: 14, skill: `node`, background: `#fff` },
   { id: 15, skill: `aws`, background: `#fff` },
   { id: 16, skill: `java`, background: `#fff` },
-  { id: 17, skill: `docker`, background: `#fff` }
+  { id: 17, skill: `docker`, background: `#fff` },
+  { id: 18, skill: `jest`, background: `#000` },
+  { id: 19, skill: `cypress`, background: `#fff` }
 ]
 
 export const GoodSkillsData: skillType[] = [
   { id: 1, skill: `eslint`, background: `#fff` },
-  { id: 2, skill: `prettier`, background: `#000` },
-  { id: 3, skill: `jest`, background: `#000` },
-  { id: 4, skill: `cypress`, background: `#fff` }
+  { id: 2, skill: `prettier`, background: `#000` }
 ]
 
 export const OtherSkillsData: skillType[] = [
