@@ -89,5 +89,24 @@ export const ProjectsData: ProjectType[] = [
       `Styled-components`
     ],
     platforms: [`web`, `github`]
+  },
+
+  {
+    id: 6,
+    project: `dashGo`,
+    title: `dashGo`,
+    description: `Projeto desenvolvido no Ignite da rocketseat, um dashboard totalmente responsivo de uma plataforma de vídeos.`,
+    repository: `https://github.com/alvarobianor/dashGo`,
+    link: `https://dash-go-alvarobianor.vercel.app/`,
+    langs: [
+      `Typescript`,
+      `Next.Js`,
+      `React`,
+      `ChakraUI`,
+      `Apexcharts`,
+      `React-hook-form`,
+      `Yup`
+    ],
+    platforms: [`web`, `github`]
   }
 ]

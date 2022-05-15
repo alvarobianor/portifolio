@@ -5,6 +5,7 @@ export type projectsType =
   | 'places'
   | 'panel'
   | 'igNews'
+  | 'dashGo'
 
 export type goodsType = 'eslint' | 'prettier'
 
