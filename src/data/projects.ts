@@ -5,7 +5,7 @@ export const ProjectsData: ProjectType[] = [
     id: 0,
     project: `api-github`,
     title: `Github Explorer`,
-    description: `Explore repositórios do Github nessa plataforma moderna e bonita`,
+    description: `Explore Github repositories on this beautiful, modern platform`,
     repository: `https://github.com/alvarobianor/github-api-front`,
     langs: [
       `React.js`,
@@ -21,7 +21,7 @@ export const ProjectsData: ProjectType[] = [
     id: 1,
     project: `portifolio`,
     title: `Portifolio`,
-    description: `Meu portifolio, com intuito de apresentar e falar um pouco mais sobre mim. Projeto inspirado no projeto do Anderson Santos github: @AndersonSantos0`,
+    description: `My portfolio, in order to present and talk a little more about myself. Project inspired by Anderson Santos project github: @AndersonSantos0`,
     repository: `https://github.com/alvarobianor/portifolio`,
     langs: [
       `React.js`,
@@ -36,8 +36,8 @@ export const ProjectsData: ProjectType[] = [
   {
     id: 2,
     project: `places`,
-    title: `Explorador de mundo`,
-    description: `Marque seus próximos destinos dde viagens pelo mundo!`,
+    title: `World Explorer`,
+    description: `Book your next travel destinations around the world!`,
     repository: `https://github.com/alvarobianor/deploy-frontend-challenge`,
     link: `https://alvaro-places-2.herokuapp.com/`,
     langs: [`React.js`, `Javascript`, `Typescript`, `Styled-components`],
@@ -47,7 +47,7 @@ export const ProjectsData: ProjectType[] = [
     id: 3,
     project: `dtmoney`,
     title: `dt-money`,
-    description: `Projeto de controle financeiro desenvolvido no bootcamp Ignite da Rocketseat`,
+    description: `Financial control project developed at Rocketseat Ignite bootcamp`,
     repository: `https://github.com/alvarobianor/dt-money`,
 
     langs: [
@@ -64,7 +64,7 @@ export const ProjectsData: ProjectType[] = [
     id: 4,
     project: `panel`,
     title: `Álvaro Bianor Panel`,
-    description: `Projeto de um painel dinâmico de imagens desenvolvido para mostrar alguns conhecimentos de CSS.`,
+    description: `Project of a dynamic panel of images developed to show some knowledge of CSS.`,
     repository: `https://github.com/alvarobianor/d01`,
     link: `https://d01.vercel.app/`,
     langs: [`Html`, `Javascript`, `Css`],
@@ -74,7 +74,7 @@ export const ProjectsData: ProjectType[] = [
     id: 5,
     project: `igNews`,
     title: `IgNews`,
-    description: `Projeto desenvolvido no Ignite da rocketseat, um blog com serviço de assinatura e login social.`,
+    description: `Project developed on Ignite by rocketseat, a blog with subscription service and social login.`,
     repository: `https://github.com/alvarobianor/igNews`,
     langs: [
       `Typescript`,
@@ -95,7 +95,7 @@ export const ProjectsData: ProjectType[] = [
     id: 6,
     project: `dashGo`,
     title: `dashGo`,
-    description: `Projeto desenvolvido no Ignite da rocketseat, um dashboard totalmente responsivo de uma plataforma de vídeos.`,
+    description: `Project developed on Ignite by rocketseat, a fully responsive dashboard for a video platform.`,
     repository: `https://github.com/alvarobianor/dashGo`,
     link: `https://dash-go-alvarobianor.vercel.app/`,
     langs: [

@@ -52,7 +52,7 @@ const Project: React.FC<ProjectProps> = ({
         {repository && (
           <div onClick={() => window.open(repository, `_blank`)}>
             <FiGithub size="1.5rem" color="#fff" />
-            <p>Repositório</p>
+            <p>Repository</p>
           </div>
         )}
         {link && (

@@ -39,7 +39,7 @@ const ContactGrid: React.FC = () => (
       link="https://www.linkedin.com/in/alvim-bianor/"
     />
     <ContactItem
-      title="GitHub (visite para mais projetos)"
+      title="GitHub"
       contact="github"
       link="https://github.com/alvarobianor"
     />

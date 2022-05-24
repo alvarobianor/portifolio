@@ -16,7 +16,7 @@ const CompanyCard: React.FC = () => (
       </CompanyCardImage>
       <CompanyCardContent>
         <CompanyCardTitle>OSF Global Digital</CompanyCardTitle>
-        <CompanyCardTime>ago. de 2020 - out. de 2020</CompanyCardTime>
+        <CompanyCardTime>August, 2020 - October, 2020</CompanyCardTime>
         <CompanyCardLocation>Quixadá - CE</CompanyCardLocation>
       </CompanyCardContent>
     </CompanyCardContainer>
@@ -26,8 +26,8 @@ const CompanyCard: React.FC = () => (
       </CompanyCardImage>
       <CompanyCardContent>
         <CompanyCardTitle>FFIT – Inovação e Tecnologia</CompanyCardTitle>
-        <CompanyCardTime>out. de 2020 - ago. de 2021</CompanyCardTime>
-        <CompanyCardLocation>Remoto</CompanyCardLocation>
+        <CompanyCardTime>October, 2020 - August, 2021</CompanyCardTime>
+        <CompanyCardLocation>Remotely</CompanyCardLocation>
       </CompanyCardContent>
     </CompanyCardContainer>
     <CompanyCardContainer>
@@ -41,8 +41,8 @@ const CompanyCard: React.FC = () => (
       </CompanyCardImage>
       <CompanyCardContent>
         <CompanyCardTitle>Instituto Atlântico</CompanyCardTitle>
-        <CompanyCardTime>ago. de 2021 - no momento</CompanyCardTime>
-        <CompanyCardLocation>Remoto</CompanyCardLocation>
+        <CompanyCardTime>August, 2021 - Currently</CompanyCardTime>
+        <CompanyCardLocation>Remotely</CompanyCardLocation>
       </CompanyCardContent>
     </CompanyCardContainer>
   </>

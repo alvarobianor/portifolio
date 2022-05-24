@@ -20,11 +20,11 @@ const EmailSection: React.FC = () => {
       )
       .then(
         () => {
-          toast.info(`Email enviado com sucesso!`)
+          toast.info(`Email successfully sent!`)
           e.target.reset()
         },
         () => {
-          toast.error(`Oops, algo deu errado, tente novamente mais tarde`)
+          toast.error(`Oops, something went wrong, try again later`)
         }
       )
   }
@@ -34,8 +34,8 @@ const EmailSection: React.FC = () => {
       <form id="contact-form" onSubmit={onSubmit}>
         <div>
           <EmailSectionInputs>
-            <input required type="text" name="subject" placeholder="Assunto" />
-            <input required type="text" name="user_name" placeholder="Nome" />
+            <input required type="text" name="subject" placeholder="Subject" />
+            <input required type="text" name="user_name" placeholder="Name" />
             <input
               required
               type="email"
@@ -44,10 +44,10 @@ const EmailSection: React.FC = () => {
             />
           </EmailSectionInputs>
           <EmailSectionMessage>
-            <textarea required name="message" placeholder="Mensagem" />
+            <textarea required name="message" placeholder="Message" />
           </EmailSectionMessage>
         </div>
-        <input className="submitButton" type="submit" />
+        <input className="submitButton" type="submit" value="Send" />
       </form>
     </EmailSectionContainer>
   )

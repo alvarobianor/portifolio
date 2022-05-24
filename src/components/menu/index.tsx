@@ -27,7 +27,7 @@ const Menu: React.FC<MenuProps> = ({ active }) => {
             href="#skills"
           >
             {` `}
-            Habilidades{` `}
+            Skills{` `}
           </a>
         </li>
         <li>
@@ -35,7 +35,7 @@ const Menu: React.FC<MenuProps> = ({ active }) => {
             className={active === `projects` ? `active` : undefined}
             href="#projects"
           >
-            Projetos
+            Projects
           </a>
         </li>
         <li>
@@ -43,7 +43,7 @@ const Menu: React.FC<MenuProps> = ({ active }) => {
             className={active === `experience` ? `active` : undefined}
             href="#experience"
           >
-            Experiência
+            Experience
           </a>
         </li>
         <li>
@@ -51,7 +51,7 @@ const Menu: React.FC<MenuProps> = ({ active }) => {
             className={active === `objectives` ? `active` : undefined}
             href="#objectives"
           >
-            Objetivos
+            Objectives
           </a>
         </li>
         <li>
@@ -59,7 +59,7 @@ const Menu: React.FC<MenuProps> = ({ active }) => {
             className={active === `contact` ? `active` : undefined}
             href="#contact"
           >
-            Contato
+            Contact
           </a>
         </li>
       </ul>

@@ -6,9 +6,9 @@ const FormationGrid: React.FC = () => (
   <FormationGridContainer>
     <FormationCard
       company="ignite"
-      title="Ignite, Trilha React.js, React Native e NodeJs - Rocketseat"
+      title="Ignite, React.js, React Native and NodeJs - Rocketseat"
       time="mar. de 2021 - 2023"
-      description={`O <span class="go">Ignite</span> é um <span class="empashis">programa de aceleração para devs</span>, focado em preparar profissionais completos(as) para o mercado, treinando skills técnicas e comportamentais de forma intensiva e prática. O <span class="go">Ignite</span> é dividido em trilhas de conhecimento não-dependentes onde nos aprofundamos em uma tecnologia específica. Em resumo, o objetivo do Ignite é desenvolver habilidades que vão acelerar sua carreira através de uma <span class="tech">metodologia de aprendizado eficiente</span>, um currículo alinhado às necessidades do mercado e as atitudes que vão te ajudar a se destacar como profissional.`}
+      description={`<span class="go">Ignite</span> is an <span class="empashis">acceleration program for devs</span>, focused on preparing complete professionals for the market, training technical skills and behavior intensively and practically. <span class="go">Ignite</span> is divided into non-dependent knowledge tracks where we deep into a specific technology. In summary, Ignite's goal is to develop skills that will accelerate your career through an <span class="tech">efficient learning methodology</span>, a curriculum aligned with market needs and attitudes that will help you to stand out as a professional.`}
     />
   </FormationGridContainer>
 )

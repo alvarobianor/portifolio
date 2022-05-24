@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable consistent-return */
 import Lottie from 'react-lottie'
 import { useRef, useState } from 'react'
@@ -71,34 +72,35 @@ const Home: React.FC = () => {
         <ProfileSeparator />
         <ProfileBioContainer>
           <ProfileBio>
-            Tenho 23 anos, trabalho como{` `}
-            <span className="empashis">front-end </span>
-            (mas vez ou outra vou dar uma mão no back-end)
+            I'm 23 years old, I work as{` `}
+            <span className="empashis">frontend </span>
+            (but every now and then I'll lend a hand on the backend)
             {` `}
-            no
+            at the
             {` `}
-            <span className="sub">Instituto Atlântico</span>, utilizando
+            <span className="sub">Instituto Atlântico</span>, using
             {` `}
             <span className="tech">React/Next.Js </span>
-            como ferramentas principais. <br /> <br /> Sou graduando de Sistemas
-            de Informação pela{` `}
-            <span className="empashis">UFC - Campus Quixadá</span>, também sou
-            bolsista do núcleo de Inovações (INOVE) onde desenvolvo projetos
-            para a universidade e seus parceiros.
-            <br /> <br /> Sou{` `}
-            <strong className="empashis">apaixonado </strong>pelo front-end,
-            principalmente quando utilizado {` `}
-            <span className="tech">React/Next.Js </span> e o{` `}
-            <span className="tech"> React Native</span>, tenho o objetivo de
-            carreira alcançar o exterior um dia e aprender sempre mais sobre
-            minha área, também programo em{` `}
-            <span className="tech">NodeJs </span> quero futuramente aprender
+            as main tools. <br /> <br /> I'm majoring in Systems of Information
+            by {` `}
+            <span className="empashis">UFC - Campus Quixadá</span>, I'm also
+            Scholarship at the Innovation Center (INOVE) where I develop
+            projects for the university and its partners.
+            <br /> <br /> I'm{` `}
+            <strong className="empashis">passionate </strong>the front-end,
+            especially when using {` `}
+            <span className="tech">React/Next.Js </span> and the {` `}
+            <span className="tech">React Native</span>, I aim to career to reach
+            abroad one day and learn more and more about my area, I also program
+            in {` `}
+            <span className="tech">NodeJs </span> I want to learn in the future
             {` `}
-            <span className="tech">Python </span>e me aprofundar mais na área de
+            <span className="tech">Python </span>and delve deeper into the area
+            of
             {` `}
-            <strong className="empashis">back-end</strong>, sempre em busca de
-            mais
-            <span className="sub"> conhecimento</span>.
+            <strong className="empashis">back-end</strong>, always looking for
+            more
+            <span className="sub">knowledge</span>.
           </ProfileBio>
         </ProfileBioContainer>
         <a href="#content" className="downArrow">
@@ -114,18 +116,18 @@ const Home: React.FC = () => {
         <Menu active={activeSection} />
         <Content onScroll={e => getActualSection(e.currentTarget.scrollTop)}>
           <ContentContainer>
-            <h1 id="skills">Habilidades principais</h1>
+            <h1 id="skills">Main Skills</h1>
             <Skills skills={MainSkillsData} />
-            <h1>Boas práticas</h1>
+            <h1>Good habits</h1>
             <Skills skills={GoodSkillsData} />
-            <h1>Outras</h1>
+            <h1>Others skills</h1>
             <Skills skills={OtherSkillsData} />
             <h1 ref={projectsRef} id="projects">
-              Projetos
+              Projects
             </h1>
             <ProjectsGrid projects={ProjectsData} />
             <h1 ref={experienceRef} id="experience">
-              Experiência
+              Experience
             </h1>
             <div
               style={{
@@ -136,39 +138,39 @@ const Home: React.FC = () => {
             >
               <CompanyCard />
             </div>
-            <h1>Formação</h1>
+            <h1>Formation</h1>
             <FormationGrid />
             <h1 ref={objectivesRef} id="objectives">
-              Objetivos
+              Goals
             </h1>
             <p>
-              Tenho o objetivo de crescer na área de{` `}
-              <span className="tech">TI</span>, focando em me desenvolver como
-              um programador <span className="empashis">fullstack</span> focando
-              em{` `}
-              <span className="lang">Typescript</span>, pois é uma linguagem na
-              qual tenho muita vontade de{` `}
-              <strong className="empashis">dominar</strong>, principalmente
-              quando aplicada a frameworks como o{` `}
+              I aim to grow in the {` `}
+              <span className="tech">IT</span>, focusing on developing myself as
+              a <span className="empashis">fullstack</span> programmer focusing
+              on in{` `}
+              <span className="lang">Typescript</span> as it is a language in
+              which I really want to {` `}
+              <strong className="empashis">master</strong>, mostly when applied
+              to frameworks like {` `}
               <span className="tech">React</span>,{` `}
-              <span className="tech">React Native</span> e
-              <span className="tech"> NodeJs</span>. Apesar de gostar de
-              desenvolver utilizando as linguagens acima, gostaria de aprender
-              várias outras, estar por dentro de várias áreas do
+              <span className="tech">React Native</span> and
+              <span className="tech">NodeJs</span>. despite liking develop using
+              the above languages, I would like to learn several others, to be
+              inside several areas of the
               {` `}
-              <span className="go">desenvolvimento de softaware</span>
+              <span className="go">software development</span>
               <br />
-              <br />
-              Também tenho curiosidades em outras áreas, gostaria muito de
-              aprender mais sobre{` `}
-              <strong className="tech">Salesforce</strong>, essa área de
-              computação em nuvem me desperta{` `}
-              <span className="go">curiosidade</span>, outra tecnologia que
-              gostaria de aprender seria <span className="tech">Elixir </span>
-              mas é importante ir com calma, um dia conquistarei o mundo!
+              <br />I also have curiosities in other areas, I would very much
+              like to learn more about{` `}
+              <strong className="tech">Salesforce</strong>, this area of cloud
+              computing wakes me up{` `}
+              <span className="go">curiosity</span>, another technology that
+              would like to learn would be <span className="tech">Elixir</span>
+              but it is important to take it easy, one day I will conquer the
+              world!
             </p>
             <h1 ref={contactRef} id="contact">
-              Contatos
+              Contacts
             </h1>
             <ContactGrid />
             <h1>Email</h1>
