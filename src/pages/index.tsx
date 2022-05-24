@@ -67,7 +67,7 @@ const Home: React.FC = () => {
         <ProfileContainer>
           <User />
           <ProfileName>Álvaro Bianor</ProfileName>
-          <ProfileProfession>Desenvolvedor fullstack</ProfileProfession>
+          <ProfileProfession>Fullstack Developer</ProfileProfession>
         </ProfileContainer>
         <ProfileSeparator />
         <ProfileBioContainer>
