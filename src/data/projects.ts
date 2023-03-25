@@ -108,5 +108,16 @@ export const ProjectsData: ProjectType[] = [
       `Yup`
     ],
     platforms: [`web`, `github`]
+  },
+
+  {
+    id: 7,
+    project: `multiverse-madness`,
+    title: `Metaverse Madness`,
+    description: `Project developed to learn about tailwind and framer motion, by: jsmastery`,
+    repository: `https://github.com/alvarobianor/multiversus-clone`,
+    link: `https://multiversus-clone.vercel.app/`,
+    langs: [`Javascript`, `Next.Js`, `React`, `Tailwind`, `FramerMotion`],
+    platforms: [`web`, `github`]
   }
 ]

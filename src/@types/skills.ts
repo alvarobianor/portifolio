@@ -22,6 +22,8 @@ export type skillsType =
   | 'java'
   | 'docker'
   | 'cypress'
+  | 'framer-motion'
+  | 'tailwind'
 
 export type skillType = {
   id: number

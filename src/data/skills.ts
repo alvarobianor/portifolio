@@ -11,15 +11,17 @@ export const MainSkillsData: skillType[] = [
   { id: 8, skill: `vue`, background: `#fff` },
   { id: 9, skill: `sass` },
   { id: 10, skill: `styled-components` },
-  { id: 11, skill: `redux`, background: `#AA5499` },
-  { id: 12, skill: `mongo`, background: `#fff` },
-  { id: 13, skill: `postgres`, background: `#fff` },
-  { id: 14, skill: `node`, background: `#fff` },
-  { id: 15, skill: `aws`, background: `#fff` },
-  { id: 16, skill: `java`, background: `#fff` },
-  { id: 17, skill: `docker`, background: `#fff` },
-  { id: 18, skill: `jest`, background: `#000` },
-  { id: 19, skill: `cypress`, background: `#fff` }
+  { id: 11, skill: `tailwind`, background: `#fff` },
+  { id: 12, skill: `framer-motion`, background: `#fff` },
+  { id: 13, skill: `redux`, background: `#AA5499` },
+  { id: 14, skill: `mongo`, background: `#fff` },
+  { id: 15, skill: `postgres`, background: `#fff` },
+  { id: 16, skill: `node`, background: `#fff` },
+  { id: 17, skill: `aws`, background: `#fff` },
+  { id: 18, skill: `java`, background: `#fff` },
+  { id: 19, skill: `docker`, background: `#fff` },
+  { id: 20, skill: `jest`, background: `#000` },
+  { id: 21, skill: `cypress`, background: `#fff` }
 ]
 
 export const GoodSkillsData: skillType[] = [

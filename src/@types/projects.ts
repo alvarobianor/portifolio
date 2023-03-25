@@ -6,6 +6,7 @@ export type projectsType =
   | 'panel'
   | 'igNews'
   | 'dashGo'
+  | 'multiverse-madness'
 
 export type goodsType = 'eslint' | 'prettier'
 
