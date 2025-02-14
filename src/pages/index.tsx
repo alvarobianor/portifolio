@@ -40,6 +40,8 @@ const Home: React.FC = () => {
 
   const [activeSection, setActiveSection] = useState<sections>(`skills`)
 
+  const currentYear = new Date().getFullYear()
+
   const getActualSection = (scrollPosition: number): void => {
     if (
       !contactRef.current ||
@@ -72,7 +74,7 @@ const Home: React.FC = () => {
         <ProfileSeparator />
         <ProfileBioContainer>
           <ProfileBio>
-            I'm 23 years old, I work as{` `}
+            I'm {currentYear - 1998} years old, I work as{` `}
             <span className="empashis">frontend </span>
             (but every now and then I'll lend a hand on the backend)
             {` `}
